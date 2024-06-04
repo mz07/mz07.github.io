@@ -31,7 +31,8 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: rgb(133, 115, 177);
+  /* background-color: rgb(133, 115, 177); */
+  background: rgb(73, 57, 113);
   background-repeat: no-repeat;
   background-size: cover;
   /* background: #212140; */
@@ -39,20 +40,20 @@ body {
 
 /* MAC STYLE SCROLL BAR */
 body::-webkit-scrollbar {
-  background-color: rgb(133, 115, 177);;
+  background-color: rgb(73, 57, 113);
   width: 16px;
 }
 
 /* background of the scrollbar except button or resizer */
 body::-webkit-scrollbar-track {
-  background-color: rgb(133, 115, 177);;
+  background-color: rgb(73, 57, 113);
 }
 
 /* scrollbar itself */
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(193, 173, 243);
+  background-color: rgb(133, 115, 177);
   border-radius: 16px;
-  border: 4px solid rgb(133, 115, 177);;
+  border: 4px solid rgb(73, 57, 113);
 }
 
 /* set button(top and bottom of the scrollbar) */
@@ -61,7 +62,6 @@ body::-webkit-scrollbar-button {
 }
 
 /* MAIN MENU */
-
 main {
   display: grid;
   grid-template-columns: 13% 87%;
@@ -76,7 +76,7 @@ main {
 
 .main-menu {
   overflow: hidden;
-  background: rgb(73, 57, 113);
+  background: rgb(133, 115, 177);
   padding-top: 10px;
   border-radius: 15px 0 0 15px;
   font-family: "Roboto", sans-serif;
@@ -132,7 +132,7 @@ main {
   width: 100%;
   height: 100%;
   border-bottom-right-radius: 20px;
-  background: rgb(73, 57, 113);
+  background: rgb(133, 115, 177);
 }
 
 .nav-item b:nth-child(2) {
@@ -152,7 +152,7 @@ main {
   width: 100%;
   height: 100%;
   border-top-right-radius: 20px;
-  background: rgb(73, 57, 113);
+  background: rgb(133, 115, 177);
 }
 
 .nav-item.active b:nth-child(1),
