@@ -38,7 +38,6 @@ body {
 }
 
 /* MAC STYLE SCROLL BAR */
-
 body::-webkit-scrollbar {
   background-color: rgb(133, 115, 177);;
   width: 16px;
